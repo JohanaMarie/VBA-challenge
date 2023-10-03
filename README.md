@@ -1,10 +1,8 @@
 # VBA-challenge
 VBA-challenge
 
-Sub Stocks()
-    
-    
-    
+    Sub Stocks()
+
     Dim currentname As String
     Dim nextname As String
     Dim totalSV As Double
@@ -70,5 +68,5 @@ Sub Stocks()
         curSheet.Cells(4, 17).Value = greatest_TotalVolume
         curSheet.Cells(4, 16).Value = curSheet.Cells(Application.WorksheetFunction.Match(greatest_TotalVolume, curSheet.Range("L2:L" & lastrow), 0) + 1, 9).Value
     Next curSheet
-End Sub
+    End Sub
 
