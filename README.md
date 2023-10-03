@@ -1,6 +1,12 @@
 # VBA-challenge
 VBA-challenge
 
+
+
+
+
+
+
 Sub Stocks()
     Dim currentname As String
     Dim nextname As String
